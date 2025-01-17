@@ -64,8 +64,8 @@ export const fetch_roberta = async (input) => {
 };
 
 export const fetch_llama = async (tweet) => {
-	const apiUrl = "https://api.groq.com/openai/v1/chat/completions";
-	const apiKey = "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";
+	const apiUrl = "";
+	const apiKey = "";
 
 	const data = {
 		model: "llama-3.3-70b-versatile", // Groq model name
