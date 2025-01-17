@@ -19,8 +19,8 @@ export const fetch_gpt = async (input) => {
 	const response = await axios.post(
 		"",
 =======
-	const modelId = "ft:gpt-3.5-turbo-0125:comsats:hate-speech:9njGZpq7";
-	const apikey = "sk-proj-ypF4fLsmNlvCHjHd7sEYT3BlbkFJeNggsqJC1xgqYiUJaFXo";
+	const modelId = "";
+	const apikey = "";
 	const response = await axios.post(
 		"https://api.openai.com/v1/chat/completions",
 >>>>>>> 07b73f7 (new)
