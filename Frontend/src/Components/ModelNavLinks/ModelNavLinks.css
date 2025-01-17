@@ -1,0 +1,33 @@
+.model_links {
+    background: #EFEDED;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.model_links p {
+    cursor: pointer;
+}
+
+.model_links p:hover {
+    scale: 1.05;
+}
+
+.verticle_line {
+    width: 1px;
+    height: 20px;
+    background-color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    .model_links {
+        width: 100%;
+    }
+    
+}

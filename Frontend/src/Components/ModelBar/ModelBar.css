@@ -1,0 +1,14 @@
+.modelbar {
+    display: flex;
+    align-items: center;
+    max-width: 660px;
+    margin: 30px auto;
+}
+
+.modelbar p {
+    /* background: linear-gradient(90deg, #4A0707 0%, #1A1A1A 100%); */
+    padding: 12px 18px;
+    /* color: white; */
+    /* border-radius: 5px; */
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.navbar {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar_sub {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.navbar_link {
+    border-bottom: 1px solid #fff;
+    font-size: 16px;
+    margin-right: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar_link:hover {
+    scale: 1.05;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar_sub {
+        margin-right: 0px;
+    }
+  }

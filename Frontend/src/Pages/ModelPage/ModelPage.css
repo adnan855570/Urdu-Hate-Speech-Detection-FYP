@@ -1,0 +1,31 @@
+.model_page {
+    width: 100%;
+}
+
+.model_nav {
+    background: linear-gradient(90deg, #430000 0%, #1A0D0D 100%);
+    padding: 60px 30px;
+}
+
+.model_nav_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.model_nav_text p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.model_main {
+    width: 80%;
+    margin: 24px auto;
+}
+
+@media only screen and (max-width: 920px) {
+    .model_main {
+        width: 90%;
+    }
+}
