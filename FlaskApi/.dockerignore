@@ -1,0 +1,11 @@
+__pycache__
+.venv
+*.pyc
+.git
+.gitignore
+.env
+flask_api_bert.py
+ROBERTA_BASE_API.py
+Bert-model.pt
+Roberta_base_saved_model/
+
