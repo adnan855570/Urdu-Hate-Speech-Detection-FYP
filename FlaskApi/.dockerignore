@@ -1,11 +1,18 @@
-__pycache__
-.venv
-*.pyc
 .git
 .gitignore
+__pycache__
+*.pyc
+*.pt
+*.bin
+.venv
 .env
+*.env
+node_modules
+dist
+build
+.DS_Store
+# optional: ignore old/unused files
 flask_api_bert.py
 ROBERTA_BASE_API.py
-Bert-model.pt
 Roberta_base_saved_model/
-
+Bert-model.pt
